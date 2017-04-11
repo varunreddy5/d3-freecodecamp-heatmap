@@ -1,0 +1,51 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+}
+#chart{
+  background-color: #FFF;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.32), 0 3px 12px 0 rgba(0, 0, 0, 0.24);
+  position: relative;
+}
+.title{
+  color:steelblue;
+  font-size:28px;
+  padding:10px 0;
+}
+#year{
+  font-size: 18px;
+}
+#note{
+  font-size: 12px;
+  line-height: 20px;
+}
+.x.axis path,
+.x.axis line{
+  fill:none;
+  stroke:#000;
+  shape-rendering:crispEdges;
+}
+.y.axis path,
+.y.axis line{
+  fill:none;
+  stroke:none;
+  shape-rendering:crispEdges;
+}
+.axis text{
+  font-size:13px;
+}
+.temp:hover{
+  cursor: pointer;
+}
+.tooltip{
+  position: absolute;
+  background-color: #000;
+  color:#FFF;
+  width:150px;
+  font-size: 14px;
+  border-radius:8px;
+  text-align: center;
+  padding:3px;
+  pointer-events: none;
+}
